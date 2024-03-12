@@ -3,9 +3,10 @@ const { clearScreenDown } = require("readline");
 
 // *********** WRITE A FILE ************
 
-//Sync...
+//Sync... Blocking...
 fileSystem.writeFileSync("./test.txt", "Hey Taufique");
 
+// Non Blocking
 //Async...  => It takes a call back insite it's method.
 // fileSystem.writeFile("./test.txt", "hey Aziz", (err) => {});
 
